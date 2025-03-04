@@ -1,0 +1,5 @@
+Abstract Class nedir?:Abstract classların kullanılma amacı, temel sınıfı tanımlamaktır. Hiyerarşik düzende en üst class’ın tanımlanması olarak yorumlayabilirsiniz. Yeni türetilecek olan classlar, abstract keyword’ü verilen class üzerinden türeyecektir.
+
+Abstraction nedir?: nesne yönelimli programlamada (OOP) temel kavramlardan biridir. Gereksiz detayları gizleyerek yalnızca önemli özellikleri gösterme prensibidir. Bu sayede, kullanıcılar bir nesnenin nasıl çalıştığını bilmeden onu kullanabilirler.
+
+Polymorphism nedir?: Çok biçimlilik olarak bilinir. Teknik olarak; bir üst sınıf referansının tüm alt sınıf nesnelerini tutabilmesidir. Bilindiği gibi, alt sınıftaki nesneler üst sınıfın sahip olduğu metotlara(static ve final tanımlı metotlar hariç) da sahiptirler (Örneğin, oluşturduğunuz bir nesne üzerinde Object sınıfına ait metotları görmeniz mümkündür). Bu özellik ile birlikte Polymorphism, bir üst sınıf referansı ile alt sınıftaki nesnelerin kullanılabilmesine olanak sağlar. Buradaki avantaj, bir işlemi gerçekleştirirken hangi sınıfa ait nesne ile işlem gerçekleştirdiğimizi bilmemize gerek kalmamasıdır.
